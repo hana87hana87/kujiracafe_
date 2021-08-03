@@ -1,7 +1,14 @@
 @charset "utf-8" ;
 
 body{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
     background-color: #f5f3ed;
+}
+
+.wrapper{
+    margin:0 auto 0 auto;
+    width:900px;
 }
 
 h2{
@@ -10,4 +17,88 @@ h2{
     border-bottom-width:2px;
     border-bottom-style:dotted;
     border-bottom-color:#442220;
+    margin-top:20px;
+    margin-right:0px;
+    margin-bottom:20px;
+    margin-left:0px;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
 }
+
+p{
+    line-height:160%;
+}
+
+a:link{
+    color:#6aa4d6;
+}
+
+a:visited{
+    color:#6aa4d6;
+}
+
+a:hover{
+    color:#4f7697;
+}
+
+a:active{
+    color:#aed3f2;
+}
+
+h1{
+    margin:30px 0 30px 0;
+    padding:0 0 0 0;
+    line-height:0;
+    text-align:center;
+}
+
+img{
+    border-style:none;
+}
+
+#nav li{
+    display:inline;
+    list-style-type:none;
+    padding-right:30px;
+    
+}
+
+#nav{
+    margin:0 0 0 0;
+    padding:15px 30px 10px 30px;
+    text-align:center;
+    
+}
+
+#nav li a:link{
+    text-decoration:none;
+}
+
+#footer{
+    background-image:url(sozai/images/footer-bg.png);
+    background-repeat:repeat-x;
+    margin-top:30px;
+    padding:20px 0 20px 0;
+    font-size:smaller;
+    color:#442220;
+}
+
+.keyvisual{
+    margin:20px 0 0 0;
+
+}
+
+.news_item{
+    margin:0 0 0 0;
+}
+
+.copy{
+    padding-top:15px;
+}
+
+
+
+
+
