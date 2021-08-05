@@ -94,6 +94,11 @@ img{
     margin:0 0 0 0;
 }
 
+.news_item a{
+    text-decoration:none;
+
+}
+
 .copy{
     padding-top:15px;
 }
@@ -151,6 +156,41 @@ table.info th,table.info td{
     font-size:12px;
     
 }
+
+.map{
+    text-align:center;
+}
+
+
+
+form div{
+    padding:12px;
+    border-bottom:1px dashed #d6c2b5;
+}
+
+.select{
+    width:30em;
+
+}
+
+.label{
+    color:#442220;
+}
+
+.input{
+    width:30em;
+}
+
+.textarea{
+    width:30em;
+    height:6em;
+}
+
+.input{
+    margin:20px 12px;
+    width:30em;
+}
+
 
 
 

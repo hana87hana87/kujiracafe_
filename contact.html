@@ -17,7 +17,57 @@
     <li><a href="access.html">アクセス</a></li>
     <li><a href="menu.html">メニュー</a></li>
     <li><a href="contact.html">お問い合わせ</a></li>
+    
 </ul>
+
+<!--メイン-->
+<h2>お問い合わせ</h2>
+<form method="GET" action="result.html">
+
+
+
+
+
+<div>
+<label for="kind">お問い合わせの種類</label><br>
+<select id="kinid" name="kind">
+        <option value="reservation">パーティの予約について</option>
+        <option value="contact">一般的な問い合わせ</option>
+    </select>
+
+</div>
+
+<div>
+    <label>はじめてのお問い合わせですか？</label><br>
+    <label><input type="radio" name="first" value="yes" checked>はい</label>
+    <label><input type="radio" name="first" value="no">いいえ</label>
+</div>
+
+<div>
+    <label>当カフェをお知りになったきっかけは？</label><br>
+    <label><input type="checkbox" name="how" value="friends">知り合いの紹介で</label>
+    <label><input type="checkbox" name="how" value="magazine">雑誌・webサイトで見て</label>
+</div>
+
+<div>
+    <label>お問い合わせの件名<br>
+    <input type="text" name="subject" value=>
+</label>
+</div>
+
+<div>
+    <label>お問い合わせの具体的な内容<br>
+    <textarea name="message"></textarea>
+</label>
+</div>
+
+<div>
+    <input type="submit" id="title" name="submit" value="送信">
+</div>
+
+</form>
+
+<!--メインここまで-->
 
 
 <div id="footer">
