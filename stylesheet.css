@@ -192,6 +192,34 @@ form div{
 }
 
 
+.news{
+    border-top:1px solid #ccc;
+    display:none;
+
+}
+
+
+.date{
+    
+    position:absolute;
+    
+}
+
+.news_item span{
+    padding-left:880px;
+    
+}
+
+.news_item{
+    font-weight:normal;
+    font-size:15px;
+}
+
+
+.open{
+    display:block;
+}
+
 
 
 
